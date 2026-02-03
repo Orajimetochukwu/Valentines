@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💕</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <div class="container" id="questionPage">
+        <div class="hearts-background"></div>
+        <div class="rose-petals"></div>
+
+        <div class="content">
+            <div class="sparkles"></div>
+
+            <div class="image-frame">
+                <div class="image-placeholder">
+                    <img src="images/us.JPG" alt="Us" id="coupleImage">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+
+            <h1 class="main-title">
+                <span class="title-line">To The Most</span>
+                <span class="title-highlight">Beautiful Person</span>
+                <span class="title-line">In My World</span>
+            </h1>
+
+            <div class="love-quote">
+                "In a sea of people, my eyes will always search for you"
+            </div>
+
+            <div class="question-box">
+                <div class="question-decoration">✨</div>
+                <h2>Will You Be My Valentine?</h2>
+                <div class="question-decoration">✨</div>
+            </div>
+
+            <div class="buttons">
+                <button class="yes-btn" id="yesBtn">
+                    <span class="btn-text">Yes! Forever! 💕</span>
+                    <span class="btn-glow"></span>
+                </button>
+                <button class="no-btn" id="noBtn">
+                    <span>No</span>
+                </button>
+            </div>
+
+            <div class="subtle-message">
+                (You know there's only one right answer 😊)
+            </div>
+        </div>
+    </div>
+
+    <div class="container hidden" id="answerPage">
+        <canvas id="particleCanvas2"></canvas>
+        <div class="hearts-background"></div>
+        <div class="rose-petals"></div>
+
+        <div class="content celebration-content">
+            <div class="celebration">
+                <div class="celebration-header">
+                    <h1 class="celebration-title">
+                        <span class="celebration-line">You Said</span>
+                        <span class="celebration-yes">YES!</span>
+                    </h1>
+                    <div class="celebration-emoji">🎉💕✨</div>
+                </div>
+
+                <p class="celebration-text">
+                    You just made me the happiest person alive! ❤️
+                </p>
+
+                <div class="love-poem">
+                    <p>"Every moment with you is a treasure,</p>
+                    <p>Every smile of yours brings me pleasure,</p>
+                    <p>With you, my life is complete,</p>
+                    <p>You make my world so sweet."</p>
+                </div>
+
+                <div class="image-gallery">
+                    <div class="gallery-item">
+                        <img src="images/pic1.jpg" alt="Our Memory 1" class="gallery-img">
+                        <div class="gallery-frame"></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/pic2.jpg" alt="Our Memory 2" class="gallery-img">
+                        <div class="gallery-frame"></div>
+                    </div>
+                    <div class="gallery-item video-item">
+                        <video src="images/29dc9e13-b4ab-4a4d-830a-171594c1c745.MP4" class="gallery-video" controls loop muted autoplay playsinline></video>
+                        <div class="gallery-frame"></div>
+                    </div>
+                </div>
+
+                <div class="final-message">
+                    <div class="message-heart">💖</div>
+                    <p class="love-message">
+                        I can't wait to create more beautiful memories with you this Valentine's Day and every day after.
+                    </p>
+                    <p class="love-signature">
+                        Forever yours,<br>
+                        <span class="signature-name">Your Valentine</span>
+                    </p>
+                </div>
+
+                <div class="floating-hearts-celebration">
+                    <span class="heart-float">❤️</span>
+                    <span class="heart-float">💕</span>
+                    <span class="heart-float">💖</span>
+                    <span class="heart-float">💗</span>
+                    <span class="heart-float">💝</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
